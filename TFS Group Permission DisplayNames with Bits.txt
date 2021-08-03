@@ -1,0 +1,1640 @@
+Unofficial (there is no official docs) security token format table: https://roadtoalm.com/2014/07/28/add-permissions-with-tfssecuritythe-ultimate-reference/
+
+DisplayName: WorkItemTrackingAdministration
+ActionDefinition instance 51921052
+  Bit: 1
+  DisplayName: Manage permissions
+  Name: ManagePermissions
+
+ActionDefinition instance 64636290
+  Bit: 2
+  DisplayName: Destroy attachments
+  Name: DestroyAttachments
+
+DisplayName: DistributedTask
+ActionDefinition instance 44855704
+  Bit: 1
+  DisplayName: View
+  Name: View
+
+ActionDefinition instance 1048160
+  Bit: 2
+  DisplayName: Manage
+  Name: Manage
+
+ActionDefinition instance 9433441
+  Bit: 4
+  DisplayName: Listen
+  Name: Listen
+
+ActionDefinition instance 17792110
+  Bit: 8
+  DisplayName: Administer Permissions
+  Name: AdministerPermissions
+
+ActionDefinition instance 25911262
+  Bit: 16
+  DisplayName: Use
+  Name: Use
+
+ActionDefinition instance 31874772
+  Bit: 32
+  DisplayName: Create
+  Name: Create
+
+DisplayName: WorkItemQueryFolders
+ActionDefinition instance 18437496
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 31719739
+  Bit: 2
+  DisplayName: Contribute
+  Name: Contribute
+
+ActionDefinition instance 17042198
+  Bit: 4
+  DisplayName: Delete
+  Name: Delete
+
+ActionDefinition instance 19162058
+  Bit: 8
+  DisplayName: Manage Permissions
+  Name: ManagePermissions
+
+ActionDefinition instance 38240801
+  Bit: 16
+  DisplayName: Full Control
+  Name: FullControl
+
+DisplayName: Git Repositories
+ActionDefinition instance 8622890
+  Bit: 1
+  DisplayName: Administer
+  Name: Administer
+
+ActionDefinition instance 10497152
+  Bit: 2
+  DisplayName: Read
+  Name: GenericRead
+
+ActionDefinition instance 27365507
+  Bit: 4
+  DisplayName: Contribute
+  Name: GenericContribute
+
+ActionDefinition instance 44962972
+  Bit: 8
+  DisplayName: Force push (rewrite history, delete branches and tags)
+  Name: ForcePush
+
+ActionDefinition instance 2013564
+  Bit: 16
+  DisplayName: Create branch
+  Name: CreateBranch
+
+ActionDefinition instance 18122076
+  Bit: 32
+  DisplayName: Create tag
+  Name: CreateTag
+
+ActionDefinition instance 28880957
+  Bit: 64
+  DisplayName: Manage notes
+  Name: ManageNote
+
+ActionDefinition instance 58602024
+  Bit: 128
+  DisplayName: Exempt from policy enforcement
+  Name: PolicyExempt
+
+ActionDefinition instance 57656175
+  Bit: 256
+  DisplayName: Create repository
+  Name: CreateRepository
+
+ActionDefinition instance 49143529
+  Bit: 512
+  DisplayName: Delete repository
+  Name: DeleteRepository
+
+ActionDefinition instance 39638585
+  Bit: 1024
+  DisplayName: Rename repository
+  Name: RenameRepository
+
+ActionDefinition instance 21202951
+  Bit: 2048
+  DisplayName: Edit policies
+  Name: EditPolicies
+
+ActionDefinition instance 56608836
+  Bit: 4096
+  DisplayName: Remove others' locks
+  Name: RemoveOthersLocks
+
+ActionDefinition instance 39717481
+  Bit: 8192
+  DisplayName: Manage permissions
+  Name: ManagePermissions
+
+ActionDefinition instance 21913016
+  Bit: 16384
+  DisplayName: Contribute to pull requests
+  Name: PullRequestContribute
+
+DisplayName: VersionControlItems2
+ActionDefinition instance 62999416
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 30123835
+  Bit: 2
+  DisplayName: Pend a change in a server workspace
+  Name: PendChange
+
+ActionDefinition instance 2679067
+  Bit: 4
+  DisplayName: Check in
+  Name: Checkin
+
+ActionDefinition instance 24111608
+  Bit: 8
+  DisplayName: Label
+  Name: Label
+
+ActionDefinition instance 15677883
+  Bit: 16
+  DisplayName: Lock
+  Name: Lock
+
+ActionDefinition instance 6883221
+  Bit: 32
+  DisplayName: Revise other users' changes
+  Name: ReviseOther
+
+ActionDefinition instance 61948991
+  Bit: 64
+  DisplayName: Unlock other users' changes
+  Name: UnlockOther
+
+ActionDefinition instance 20670010
+  Bit: 128
+  DisplayName: Undo other users' changes
+  Name: UndoOther
+
+ActionDefinition instance 51812368
+  Bit: 256
+  DisplayName: Administer labels
+  Name: LabelOther
+
+ActionDefinition instance 63658128
+  Bit: 1024
+  DisplayName: Manage permissions
+  Name: AdminProjectRights
+
+ActionDefinition instance 36052245
+  Bit: 2048
+  DisplayName: Check in other users' changes
+  Name: CheckinOther
+
+ActionDefinition instance 56034750
+  Bit: 4096
+  DisplayName: Merge
+  Name: Merge
+
+ActionDefinition instance 34550710
+  Bit: 8192
+  DisplayName: Manage branch
+  Name: ManageBranch
+
+DisplayName: Licensing
+ActionDefinition instance 42520941
+  Bit: 1
+  DisplayName: Read Licensing resources
+  Name: Read
+
+ActionDefinition instance 47144157
+  Bit: 2
+  DisplayName: Create Licensing resources
+  Name: Create
+
+ActionDefinition instance 21644229
+  Bit: 4
+  DisplayName: Modify Licensing resources
+  Name: Modify
+
+ActionDefinition instance 60580335
+  Bit: 8
+  DisplayName: Delete Licensing resources
+  Name: Delete
+
+ActionDefinition instance 8352109
+  Bit: 16
+  DisplayName: Assign Licensing resources
+  Name: Assign
+
+ActionDefinition instance 8060118
+  Bit: 32
+  DisplayName: Revoke Licensing resources
+  Name: Revoke
+
+DisplayName: EventSubscriber
+ActionDefinition instance 5432205
+  Bit: 1
+  DisplayName: View
+  Name: GENERIC_READ
+
+ActionDefinition instance 48889850
+  Bit: 2
+  DisplayName: Edit
+  Name: GENERIC_WRITE
+
+DisplayName: WorkItemTrackingProvision
+ActionDefinition instance 37355470
+  Bit: 1
+  DisplayName: Administer
+  Name: Administer
+
+ActionDefinition instance 654914
+  Bit: 2
+  DisplayName: Manage work item link types
+  Name: ManageLinkTypes
+
+DisplayName: BlobStoreKeepUntilPrivileges
+ActionDefinition instance 5894231
+  Bit: 1
+  DisplayName: Keep for up to 7 days
+  Name: MaxKeep7Days
+
+ActionDefinition instance 53048087
+  Bit: 2
+  DisplayName: Keep for up to 31 days
+  Name: MaxKeep31Days
+
+ActionDefinition instance 7670737
+  Bit: 4
+  DisplayName: Keep for up to 365 days
+  Name: MaxKeep365Days
+
+ActionDefinition instance 1927776
+  Bit: 8
+  DisplayName: Keep for up to 2 Years
+  Name: MaxKeep2Years
+
+ActionDefinition instance 17349988
+  Bit: 16
+  DisplayName: Keep for up to 3 Years
+  Name: MaxKeep3Years
+
+ActionDefinition instance 21932166
+  Bit: 32
+  DisplayName: Keep for up to 4 Years
+  Name: MaxKeep4Years
+
+ActionDefinition instance 63171767
+  Bit: 64
+  DisplayName: Keep for up to 5 Years
+  Name: MaxKeep5Years
+
+ActionDefinition instance 31674992
+  Bit: 128
+  DisplayName: Keep for up to 6 Years
+  Name: MaxKeep6Years
+
+ActionDefinition instance 16639474
+  Bit: 256
+  DisplayName: Keep for up to 7 Years
+  Name: MaxKeep7Years
+
+ActionDefinition instance 15537542
+  Bit: 512
+  DisplayName: Keep for up to 8 Years
+  Name: MaxKeep8Years
+
+ActionDefinition instance 5620158
+  Bit: 1024
+  DisplayName: Keep for up to 9 Years
+  Name: MaxKeep9Years
+
+ActionDefinition instance 50581426
+  Bit: 2048
+  DisplayName: Keep for up to 10 Years
+  Name: MaxKeep10Years
+
+ActionDefinition instance 52579650
+  Bit: 4096
+  DisplayName: Keep for up to 15 Years
+  Name: MaxKeep15Years
+
+ActionDefinition instance 3454809
+  Bit: 268435456
+  DisplayName: Keep for an unlimited number of days
+  Name: MaxKeepUnlimited
+
+ActionDefinition instance 31093287
+  Bit: 536870912
+  DisplayName: Read blob security namespace
+  Name: SecurityAdminRead
+
+ActionDefinition instance 11404133
+  Bit: 1073741824
+  DisplayName: Modify blob security namespace
+  Name: SecurityAdminWrite
+
+DisplayName: Identity
+ActionDefinition instance 35528341
+  Bit: 1
+  DisplayName: View identity information
+  Name: Read
+
+ActionDefinition instance 51319614
+  Bit: 2
+  DisplayName: Edit identity information
+  Name: Write
+
+ActionDefinition instance 59223347
+  Bit: 4
+  DisplayName: Delete identity information
+  Name: Delete
+
+ActionDefinition instance 63248075
+  Bit: 8
+  DisplayName: Manage group membership
+  Name: ManageMembership
+
+ActionDefinition instance 32361769
+  Bit: 16
+  DisplayName: Create identity scopes
+  Name: CreateScope
+
+DisplayName: EventManagement
+ActionDefinition instance 22820469
+  Bit: 1
+  DisplayName: Allow publishing an event from an extension
+  Name: ExtensionPublish
+
+ActionDefinition instance 4057632
+  Bit: 2
+  DisplayName: Allow publishing an event without being constrained to an extension context
+  Name: Publish
+
+DisplayName: Analytics
+ActionDefinition instance 36518691
+  Bit: 1
+  DisplayName: View analytics
+  Name: Read
+
+ActionDefinition instance 60232767
+  Bit: 2
+  DisplayName: Manage analytics permissions
+  Name: Administer
+
+ActionDefinition instance 5223998
+  Bit: 4
+  DisplayName: Push the data to staging area
+  Name: Stage
+
+ActionDefinition instance 47015983
+  Bit: 8
+  DisplayName: Execute query without any restrictions on the query form
+  Name: ExecuteUnrestrictedQuery
+
+DisplayName: ServiceEndpoints
+ActionDefinition instance 20490669
+  Bit: 1
+  DisplayName: View Endpoint
+  Name: View
+
+ActionDefinition instance 50198296
+  Bit: 2
+  DisplayName: Administer Endpoint
+  Name: Administer
+
+ActionDefinition instance 49131481
+  Bit: 4
+  DisplayName: Create Endpoint
+  Name: Create
+
+ActionDefinition instance 39530145
+  Bit: 8
+  DisplayName: View Authorization
+  Name: ViewAuthorization
+
+DisplayName: ServiceHooks
+ActionDefinition instance 20226985
+  Bit: 1
+  DisplayName: View Subscriptions
+  Name: ViewSubscriptions
+
+ActionDefinition instance 47825138
+  Bit: 2
+  DisplayName: Edit Subscription
+  Name: EditSubscriptions
+
+ActionDefinition instance 27773061
+  Bit: 4
+  DisplayName: Delete Subscriptions
+  Name: DeleteSubscriptions
+
+ActionDefinition instance 48630964
+  Bit: 8
+  DisplayName: Publish Events
+  Name: PublishEvents
+
+DisplayName: AnalyticsViews
+ActionDefinition instance 35025494
+  Bit: 1
+  DisplayName: View
+  Name: Read
+
+ActionDefinition instance 46793998
+  Bit: 2
+  DisplayName: Edit
+  Name: Edit
+
+ActionDefinition instance 18492804
+  Bit: 4
+  DisplayName: Delete
+  Name: Delete
+
+ActionDefinition instance 32217513
+  Bit: 1024
+  DisplayName: Manage
+  Name: ManagePermissions
+
+DisplayName: Collection
+ActionDefinition instance 21522166
+  Bit: 1
+  DisplayName: View collection-level information
+  Name: GENERIC_READ
+
+ActionDefinition instance 59481773
+  Bit: 2
+  DisplayName: Edit collection-level information
+  Name: GENERIC_WRITE
+
+ActionDefinition instance 65573909
+  Bit: 4
+  DisplayName: Create new projects
+  Name: CREATE_PROJECTS
+
+ActionDefinition instance 53294272
+  Bit: 16
+  DisplayName: Trigger events
+  Name: TRIGGER_EVENT
+
+ActionDefinition instance 9886408
+  Bit: 32
+  DisplayName: Manage process template
+  Name: MANAGE_TEMPLATE
+
+ActionDefinition instance 21868813
+  Bit: 64
+  DisplayName: Alter trace settings
+  Name: DIAGNOSTIC_TRACE
+
+ActionDefinition instance 62601592
+  Bit: 128
+  DisplayName: View system synchronization information
+  Name: SYNCHRONIZE_READ
+
+ActionDefinition instance 26543418
+  Bit: 512
+  DisplayName: Manage test controllers
+  Name: MANAGE_TEST_CONTROLLERS
+
+ActionDefinition instance 37564172
+  Bit: 1024
+  DisplayName: Delete field from account
+  Name: DELETE_FIELD
+
+DisplayName: Proxy
+ActionDefinition instance 2533231
+  Bit: 1
+  DisplayName: Read proxies
+  Name: Read
+
+ActionDefinition instance 22799085
+  Bit: 2
+  DisplayName: Manage proxies
+  Name: Manage
+
+DisplayName: Plan
+ActionDefinition instance 3865173
+  Bit: 1
+  DisplayName: View
+  Name: View
+
+ActionDefinition instance 34786562
+  Bit: 2
+  DisplayName: Edit
+  Name: Edit
+
+ActionDefinition instance 44643603
+  Bit: 4
+  DisplayName: Delete
+  Name: Delete
+
+ActionDefinition instance 66248115
+  Bit: 8
+  DisplayName: Manage
+  Name: Manage
+
+DisplayName: BuildAdministration
+ActionDefinition instance 59362130
+  Bit: 1
+  DisplayName: View build resources
+  Name: ViewBuildResources
+
+ActionDefinition instance 64497130
+  Bit: 2
+  DisplayName: Manage build resources
+  Name: ManageBuildResources
+
+ActionDefinition instance 43603258
+  Bit: 4
+  DisplayName: Use build resources
+  Name: UseBuildResources
+
+ActionDefinition instance 56885004
+  Bit: 8
+  DisplayName: Administer build resource permissions
+  Name: AdministerBuildResourcePermissions
+
+DisplayName: Process
+ActionDefinition instance 42202994
+  Bit: 1
+  DisplayName: Edit process
+  Name: Edit
+
+ActionDefinition instance 44282627
+  Bit: 2
+  DisplayName: Delete process
+  Name: Delete
+
+ActionDefinition instance 62999330
+  Bit: 4
+  DisplayName: Create process
+  Name: Create
+
+ActionDefinition instance 30123063
+  Bit: 8
+  DisplayName: Administer process permissions
+  Name: AdministerProcessPermissions
+
+ActionDefinition instance 2672115
+  Bit: 16
+  DisplayName: View Process
+  Name: ReadProcessPermissions
+
+ActionDefinition instance 24049039
+  Bit: 32
+  DisplayName: Read process rules
+  Name: ReadProcessRules
+
+DisplayName: FeedIndex
+ActionDefinition instance 15114764
+  Bit: 1
+  DisplayName: Create and update index entries
+  Name: ModifyIndex
+
+DisplayName: Feed
+ActionDefinition instance 1815156
+  Bit: 1
+  DisplayName: Administer a Feed
+  Name: AdminFeed
+
+ActionDefinition instance 16336406
+  Bit: 2
+  DisplayName: Archive a Feed
+  Name: ArchiveFeed
+
+ActionDefinition instance 12809933
+  Bit: 4
+  DisplayName: Delete a Feed
+  Name: DestroyFeed
+
+ActionDefinition instance 48180537
+  Bit: 8
+  DisplayName: Create a Feed
+  Name: CreateFeed
+
+ActionDefinition instance 30971651
+  Bit: 16
+  DisplayName: Edit Feed Metadata
+  Name: EditFeed
+
+ActionDefinition instance 10309404
+  Bit: 32
+  DisplayName: Read packages
+  Name: ReadPackage
+
+ActionDefinition instance 25675773
+  Bit: 64
+  DisplayName: Add packages
+  Name: AddPackage
+
+ActionDefinition instance 29755367
+  Bit: 128
+  DisplayName: Update packages
+  Name: UpdatePackage
+
+ActionDefinition instance 66471715
+  Bit: 256
+  DisplayName: Delete packages
+  Name: DeletePackage
+
+ActionDefinition instance 61374531
+  Bit: 1024
+  DisplayName: Delist packages
+  Name: DelistPackage
+
+DisplayName: VersionControlPrivileges
+ActionDefinition instance 15499871
+  Bit: 2
+  DisplayName: Create a workspace
+  Name: CreateWorkspace
+
+ActionDefinition instance 5281111
+  Bit: 4
+  DisplayName: Administer workspaces
+  Name: AdminWorkspaces
+
+ActionDefinition instance 47530006
+  Bit: 8
+  DisplayName: Administer shelved changes
+  Name: AdminShelvesets
+
+ActionDefinition instance 25116876
+  Bit: 16
+  DisplayName: Administer source control connections
+  Name: AdminConnections
+
+ActionDefinition instance 24725298
+  Bit: 32
+  DisplayName: Administer source control configurations
+  Name: AdminConfiguration
+
+DisplayName: Library
+ActionDefinition instance 21201098
+  Bit: 1
+  DisplayName: View library item
+  Name: View
+
+ActionDefinition instance 56592155
+  Bit: 2
+  DisplayName: Administer library item
+  Name: Administer
+
+ActionDefinition instance 39567352
+  Bit: 4
+  DisplayName: Create library item
+  Name: Create
+
+ActionDefinition instance 20561848
+  Bit: 8
+  DisplayName: View library item secrets
+  Name: ViewSecrets
+
+ActionDefinition instance 50838910
+  Bit: 16
+  DisplayName: Use library item
+  Name: Use
+
+DisplayName: ExtensionManagement
+ActionDefinition instance 54897010
+  Bit: 1
+  DisplayName: View Extensions
+  Name: ViewExtensions
+
+ActionDefinition instance 24311045
+  Bit: 2
+  DisplayName: Manage Extensions
+  Name: ManageExtensions
+
+ActionDefinition instance 17472816
+  Bit: 4
+  DisplayName: Manage Security
+  Name: ManageSecurity
+
+DisplayName: Workspaces
+ActionDefinition instance 23037620
+  Bit: 1
+  DisplayName: View workspace information
+  Name: Read
+
+ActionDefinition instance 6011995
+  Bit: 2
+  DisplayName: Use the workspace
+  Name: Use
+
+ActionDefinition instance 54107956
+  Bit: 4
+  DisplayName: Check in changes to the workspace
+  Name: Checkin
+
+ActionDefinition instance 17209562
+  Bit: 8
+  DisplayName: Administer the workspace
+  Name: Administer
+
+DisplayName: Project
+ActionDefinition instance 20668333
+  Bit: 1
+  DisplayName: View project-level information
+  Name: GENERIC_READ
+
+ActionDefinition instance 51797270
+  Bit: 2
+  DisplayName: Edit project-level information
+  Name: GENERIC_WRITE
+
+ActionDefinition instance 63522246
+  Bit: 4
+  DisplayName: Delete team project
+  Name: DELETE
+
+ActionDefinition instance 34829302
+  Bit: 8
+  DisplayName: Create test runs
+  Name: PUBLISH_TEST_RESULTS
+
+ActionDefinition instance 45028263
+  Bit: 16
+  DisplayName: Administer a build
+  Name: ADMINISTER_BUILD
+
+ActionDefinition instance 2601186
+  Bit: 32
+  DisplayName: Start a build
+  Name: START_BUILD
+
+ActionDefinition instance 23410681
+  Bit: 64
+  DisplayName: Edit build quality
+  Name: EDIT_BUILD_STATUS
+
+ActionDefinition instance 9369539
+  Bit: 128
+  DisplayName: Write to build operational store
+  Name: UPDATE_BUILD
+
+ActionDefinition instance 17216995
+  Bit: 256
+  DisplayName: Delete test runs
+  Name: DELETE_TEST_RESULTS
+
+ActionDefinition instance 20735233
+  Bit: 512
+  DisplayName: View test runs
+  Name: VIEW_TEST_RESULTS
+
+ActionDefinition instance 52399374
+  Bit: 2048
+  DisplayName: Manage test environments
+  Name: MANAGE_TEST_ENVIRONMENTS
+
+ActionDefinition instance 1832323
+  Bit: 4096
+  DisplayName: Manage test configurations
+  Name: MANAGE_TEST_CONFIGURATIONS
+
+ActionDefinition instance 16490914
+  Bit: 8192
+  DisplayName: Delete and restore work items
+  Name: WORK_ITEM_DELETE
+
+ActionDefinition instance 14200498
+  Bit: 16384
+  DisplayName: Move work items out of this project
+  Name: WORK_ITEM_MOVE
+
+ActionDefinition instance 60695621
+  Bit: 32768
+  DisplayName: Permanently delete work items
+  Name: WORK_ITEM_PERMANENTLY_DELETE
+
+ActionDefinition instance 9389685
+  Bit: 65536
+  DisplayName: Rename team project
+  Name: RENAME
+
+ActionDefinition instance 17398306
+  Bit: 131072
+  DisplayName: Manage project properties
+  Name: MANAGE_PROPERTIES
+
+ActionDefinition instance 22367029
+  Bit: 262144
+  DisplayName: Manage system project properties
+  Name: MANAGE_SYSTEM_PROPERTIES
+
+ActionDefinition instance 67085535
+  Bit: 524288
+  DisplayName: Bypass project property cache
+  Name: BYPASS_PROPERTY_CACHE
+
+ActionDefinition instance 66898905
+  Bit: 1048576
+  DisplayName: Bypass rules on work item updates
+  Name: BYPASS_RULES
+
+ActionDefinition instance 65219236
+  Bit: 2097152
+  DisplayName: Suppress notifications for work item updates
+  Name: SUPPRESS_NOTIFICATIONS
+
+ActionDefinition instance 50102218
+  Bit: 4194304
+  DisplayName: Update project visibility
+  Name: UPDATE_VISIBILITY
+
+DisplayName: EventSubscription
+ActionDefinition instance 48266778
+  Bit: 1
+  DisplayName: View
+  Name: GENERIC_READ
+
+ActionDefinition instance 31747823
+  Bit: 2
+  DisplayName: Edit
+  Name: GENERIC_WRITE
+
+ActionDefinition instance 17294952
+  Bit: 4
+  DisplayName: Unsubscribe
+  Name: UNSUBSCRIBE
+
+ActionDefinition instance 21436848
+  Bit: 8
+  DisplayName: Create a SOAP subscription
+  Name: CREATE_SOAP_SUBSCRIPTION
+
+DisplayName: CSS
+ActionDefinition instance 58713911
+  Bit: 1
+  DisplayName: View permissions for this node
+  Name: GENERIC_READ
+
+ActionDefinition instance 58663159
+  Bit: 2
+  DisplayName: Edit this node
+  Name: GENERIC_WRITE
+
+ActionDefinition instance 58206383
+  Bit: 4
+  DisplayName: Create child nodes
+  Name: CREATE_CHILDREN
+
+ActionDefinition instance 54095401
+  Bit: 8
+  DisplayName: Delete this node
+  Name: DELETE
+
+ActionDefinition instance 17096567
+  Bit: 16
+  DisplayName: View work items in this node
+  Name: WORK_ITEM_READ
+
+ActionDefinition instance 19651376
+  Bit: 32
+  DisplayName: Edit work items in this node
+  Name: WORK_ITEM_WRITE
+
+ActionDefinition instance 42644663
+  Bit: 64
+  DisplayName: Manage test plans
+  Name: MANAGE_TEST_PLANS
+
+ActionDefinition instance 48257652
+  Bit: 128
+  DisplayName: Manage test suites
+  Name: MANAGE_TEST_SUITES
+
+DisplayName: Discussion Threads
+ActionDefinition instance 31665688
+  Bit: 1
+  DisplayName: Manage discussion permissions
+  Name: Administer
+
+ActionDefinition instance 16555740
+  Bit: 2
+  DisplayName: View discussions
+  Name: GenericRead
+
+ActionDefinition instance 14783937
+  Bit: 4
+  DisplayName: Contribute to discussions
+  Name: GenericContribute
+
+ActionDefinition instance 65946577
+  Bit: 8
+  DisplayName: Moderate discussions
+  Name: Moderate
+
+DisplayName: DashboardGroupPrivileges
+ActionDefinition instance 56648283
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 40072506
+  Bit: 2
+  DisplayName: Edit
+  Name: Edit
+
+ActionDefinition instance 25108238
+  Bit: 4
+  DisplayName: Manage
+  Name: Manage
+
+ActionDefinition instance 24647552
+  Bit: 8
+  DisplayName: ManagePermissions
+  Name: ManagePermissions
+
+DisplayName: TeamLabSecurity
+ActionDefinition instance 20501377
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 50294666
+  Bit: 2
+  DisplayName: Create
+  Name: Create
+
+ActionDefinition instance 49998812
+  Bit: 4
+  DisplayName: Write
+  Name: Write
+
+ActionDefinition instance 47336128
+  Bit: 8
+  DisplayName: Edit
+  Name: Edit
+
+ActionDefinition instance 23371976
+  Bit: 16
+  DisplayName: Delete
+  Name: Delete
+
+ActionDefinition instance 9021196
+  Bit: 32
+  DisplayName: Start
+  Name: Start
+
+ActionDefinition instance 14081900
+  Bit: 64
+  DisplayName: Stop
+  Name: Stop
+
+ActionDefinition instance 59628243
+  Bit: 128
+  DisplayName: Pause
+  Name: Pause
+
+ActionDefinition instance 66892145
+  Bit: 256
+  DisplayName: ManageSnapshots
+  Name: ManageSnapshots
+
+ActionDefinition instance 65158399
+  Bit: 512
+  DisplayName: ManageLocation
+  Name: ManageLocation
+
+ActionDefinition instance 49554687
+  Bit: 1024
+  DisplayName: DeleteLocation
+  Name: DeleteLocation
+
+ActionDefinition instance 43339000
+  Bit: 2048
+  DisplayName: ManagePermissions
+  Name: ManagePermissions
+
+ActionDefinition instance 54506685
+  Bit: 4096
+  DisplayName: ManageChildPermissions
+  Name: ManageChildPermissions
+
+ActionDefinition instance 20798117
+  Bit: 8192
+  DisplayName: ManageTestMachines
+  Name: ManageTestMachines
+
+DisplayName: ReleaseManagement
+ActionDefinition instance 52965331
+  Bit: 1
+  DisplayName: View release definition
+  Name: ViewReleaseDefinition
+
+ActionDefinition instance 6925935
+  Bit: 2
+  DisplayName: Edit release definition
+  Name: EditReleaseDefinition
+
+ActionDefinition instance 62333418
+  Bit: 4
+  DisplayName: Delete release definition
+  Name: DeleteReleaseDefinition
+
+ActionDefinition instance 24129853
+  Bit: 8
+  DisplayName: Manage release approvers
+  Name: ManageReleaseApprovers
+
+ActionDefinition instance 15842089
+  Bit: 16
+  DisplayName: Manage releases
+  Name: ManageReleases
+
+ActionDefinition instance 8361080
+  Bit: 32
+  DisplayName: View releases
+  Name: ViewReleases
+
+ActionDefinition instance 8140857
+  Bit: 64
+  DisplayName: Create releases
+  Name: CreateReleases
+
+ActionDefinition instance 6158855
+  Bit: 128
+  DisplayName: Edit release environment
+  Name: EditReleaseEnvironment
+
+ActionDefinition instance 55429698
+  Bit: 256
+  DisplayName: Delete release environment
+  Name: DeleteReleaseEnvironment
+
+ActionDefinition instance 29105235
+  Bit: 512
+  DisplayName: Administer release permissions
+  Name: AdministerReleasePermissions
+
+ActionDefinition instance 60620523
+  Bit: 1024
+  DisplayName: Delete releases
+  Name: DeleteReleases
+
+ActionDefinition instance 8713795
+  Bit: 2048
+  DisplayName: Manage deployments
+  Name: ManageDeployments
+
+ActionDefinition instance 11315292
+  Bit: 4096
+  DisplayName: Manage release settings
+  Name: ManageReleaseSettings
+
+DisplayName: BlobStoreBlobPrivileges
+ActionDefinition instance 34728767
+  Bit: 1
+  DisplayName: Read blobs
+  Name: Read
+
+ActionDefinition instance 44123454
+  Bit: 2
+  DisplayName: Delete blobs
+  Name: Delete
+
+ActionDefinition instance 61566768
+  Bit: 4
+  DisplayName: Create blobs
+  Name: Create
+
+ActionDefinition instance 17230008
+  Bit: 4096
+  DisplayName: Modify blob security namespace
+  Name: SecurityAdmin
+
+DisplayName: ProjectAnalysisLanguageMetrics
+ActionDefinition instance 20852350
+  Bit: 1
+  DisplayName: View Project Analysis language metrics data
+  Name: Read
+
+ActionDefinition instance 53453427
+  Bit: 2
+  DisplayName: Write Project Analysis language metrics data
+  Name: Write
+
+DisplayName: Tagging
+ActionDefinition instance 11318800
+  Bit: 1
+  DisplayName: Enumerate tag definitions
+  Name: Enumerate
+
+ActionDefinition instance 34760343
+  Bit: 2
+  DisplayName: Create tag definition
+  Name: Create
+
+ActionDefinition instance 44407631
+  Bit: 4
+  DisplayName: Update tag definition
+  Name: Update
+
+ActionDefinition instance 64124362
+  Bit: 8
+  DisplayName: Delete tag definition
+  Name: Delete
+
+DisplayName: Identity2
+ActionDefinition instance 40248354
+  Bit: 1
+  DisplayName: View identity information
+  Name: Read
+
+ActionDefinition instance 26690871
+  Bit: 2
+  DisplayName: Edit identity information
+  Name: Write
+
+ActionDefinition instance 38891250
+  Bit: 4
+  DisplayName: Delete identity information
+  Name: Delete
+
+ActionDefinition instance 14476932
+  Bit: 8
+  DisplayName: Impersonate identity
+  Name: Impersonate
+
+DisplayName: MetaTask
+ActionDefinition instance 63183526
+  Bit: 1
+  DisplayName: Administer task group permissions
+  Name: Administer
+
+ActionDefinition instance 31780825
+  Bit: 2
+  DisplayName: Edit task group
+  Name: Edit
+
+ActionDefinition instance 17591975
+  Bit: 4
+  DisplayName: Delete task group
+  Name: Delete
+
+DisplayName: Iteration
+ActionDefinition instance 24110047
+  Bit: 1
+  DisplayName: View permissions for this node
+  Name: GENERIC_READ
+
+ActionDefinition instance 15663836
+  Bit: 2
+  DisplayName: Edit this node
+  Name: GENERIC_WRITE
+
+ActionDefinition instance 6756797
+  Bit: 4
+  DisplayName: Create child nodes
+  Name: CREATE_CHILDREN
+
+ActionDefinition instance 60811181
+  Bit: 8
+  DisplayName: Delete this node
+  Name: DELETE
+
+DisplayName: Build
+ActionDefinition instance 10429724
+  Bit: 1
+  DisplayName: View builds
+  Name: ViewBuilds
+
+ActionDefinition instance 26758660
+  Bit: 2
+  DisplayName: Edit build quality
+  Name: EditBuildQuality
+
+ActionDefinition instance 39501348
+  Bit: 4
+  DisplayName: Retain indefinitely
+  Name: RetainIndefinitely
+
+ActionDefinition instance 19967814
+  Bit: 8
+  DisplayName: Delete builds
+  Name: DeleteBuilds
+
+ActionDefinition instance 45492604
+  Bit: 16
+  DisplayName: Manage build qualities
+  Name: ManageBuildQualities
+
+ActionDefinition instance 6780253
+  Bit: 32
+  DisplayName: Destroy builds
+  Name: DestroyBuilds
+
+ActionDefinition instance 61022284
+  Bit: 64
+  DisplayName: Update build information
+  Name: UpdateBuildInformation
+
+ActionDefinition instance 12329649
+  Bit: 128
+  DisplayName: Queue builds
+  Name: QueueBuilds
+
+ActionDefinition instance 43857981
+  Bit: 256
+  DisplayName: Manage build queue
+  Name: ManageBuildQueue
+
+ActionDefinition instance 59177513
+  Bit: 512
+  DisplayName: Stop builds
+  Name: StopBuilds
+
+ActionDefinition instance 62835574
+  Bit: 1024
+  DisplayName: View build definition
+  Name: ViewBuildDefinition
+
+ActionDefinition instance 28649262
+  Bit: 2048
+  DisplayName: Edit build definition
+  Name: EditBuildDefinition
+
+ActionDefinition instance 56516768
+  Bit: 4096
+  DisplayName: Delete build definition
+  Name: DeleteBuildDefinition
+
+ActionDefinition instance 38888871
+  Bit: 8192
+  DisplayName: Override check-in validation by build
+  Name: OverrideBuildCheckInValidation
+
+ActionDefinition instance 14455523
+  Bit: 16384
+  DisplayName: Administer build permissions
+  Name: AdministerBuildPermissions
+
+DisplayName: Favorites
+ActionDefinition instance 62990845
+  Bit: 1
+  DisplayName: View instance-level information
+  Name: GenericRead
+
+ActionDefinition instance 30046694
+  Bit: 2
+  DisplayName: Edit instance-level information
+  Name: GenericWrite
+
+DisplayName: Registry
+ActionDefinition instance 1984791
+  Bit: 1
+  DisplayName: Read registry entries
+  Name: Read
+
+ActionDefinition instance 17863121
+  Bit: 2
+  DisplayName: Write registry entries
+  Name: Write
+
+DisplayName: Graph
+ActionDefinition instance 26550365
+  Bit: 1
+  DisplayName: Read by public identifier
+  Name: ReadByPublicIdentifier
+
+ActionDefinition instance 37626701
+  Bit: 2
+  DisplayName: Read by personal identifier
+  Name: ReadByPersonalIdentifier
+
+DisplayName: ViewActivityPaneSecurity
+ActionDefinition instance 3095993
+  Bit: 1
+  DisplayName: View only entities
+  Name: Read
+
+DisplayName: ReleaseManagementUI
+ActionDefinition instance 27863937
+  Bit: 1
+  DisplayName: View task editor
+  Name: ViewTaskEditor
+
+ActionDefinition instance 49448848
+  Bit: 2
+  DisplayName: View CD work flow editor
+  Name: ViewCDWorkflowEditor
+
+ActionDefinition instance 42386454
+  Bit: 4
+  DisplayName: Export release definition
+  Name: ExportReleaseDefinition
+
+ActionDefinition instance 45933772
+  Bit: 8
+  DisplayName: View legacy UI
+  Name: ViewLegacyUI
+
+ActionDefinition instance 10750772
+  Bit: 16
+  DisplayName: Deployment Summary Across Projects
+  Name: DeploymentSummaryAcrossProjects
+
+ActionDefinition instance 29648085
+  Bit: 32
+  DisplayName: View external artifact commits and workitems
+  Name: ViewExternalArtifactCommitsAndWorkItems
+
+DisplayName: Job
+ActionDefinition instance 65506178
+  Bit: 1
+  DisplayName: View background job information
+  Name: Read
+
+ActionDefinition instance 52684690
+  Bit: 2
+  DisplayName: Queue background jobs
+  Name: Queue
+
+ActionDefinition instance 4400168
+  Bit: 4
+  DisplayName: Manage background jobs
+  Name: Update
+
+DisplayName: WorkItemTracking
+ActionDefinition instance 39601516
+  Bit: 1
+  DisplayName: Read WorkItemTracking
+  Name: Read
+
+ActionDefinition instance 20869327
+  Bit: 2
+  DisplayName: Cross Project Read Of WorkItemTracking Resources
+  Name: CrossProjectRead
+
+DisplayName: Commerce collection security
+ActionDefinition instance 53606218
+  Bit: 1
+  DisplayName: Read collection data
+  Name: Read
+
+ActionDefinition instance 12693918
+  Bit: 2
+  DisplayName: Write Collection data
+  Name: Write
+
+ActionDefinition instance 47136405
+  Bit: 4
+  DisplayName: Update Collection data
+  Name: Update
+
+DisplayName: StrongBox
+ActionDefinition instance 21574462
+  Bit: 1
+  DisplayName: Create a StrongBox Drawer.
+  Name: CreateDrawer
+
+ActionDefinition instance 59952436
+  Bit: 2
+  DisplayName: Delete as StrongBox Drawer.
+  Name: DeleteDrawer
+
+ActionDefinition instance 2701015
+  Bit: 4
+  DisplayName: Administer StrongBox Permissions.
+  Name: Administer
+
+ActionDefinition instance 24309136
+  Bit: 16
+  DisplayName: Add Items to the StrongBox Drawer.
+  Name: AddItem
+
+ActionDefinition instance 17455632
+  Bit: 32
+  DisplayName: Retrieve Items from the StrongBox Drawer.
+  Name: GetItem
+
+ActionDefinition instance 22882960
+  Bit: 64
+  DisplayName: Delete Items from the StrongBox Drawer.
+  Name: DeleteItem
+
+ActionDefinition instance 4620049
+  Bit: 128
+  DisplayName: Administer permissions for the StrongBox Drawer.
+  Name: AdministerDrawer
+
+DisplayName: SearchSecurity
+ActionDefinition instance 41580444
+  Bit: 1
+  DisplayName: View only entities
+  Name: Read
+
+DisplayName: Server
+ActionDefinition instance 38679683
+  Bit: 1
+  DisplayName: View instance-level information
+  Name: GenericRead
+
+ActionDefinition instance 12572829
+  Bit: 2
+  DisplayName: Edit instance-level information
+  Name: GenericWrite
+
+ActionDefinition instance 46046605
+  Bit: 4
+  DisplayName: Make requests on behalf of others
+  Name: Impersonate
+
+ActionDefinition instance 11766267
+  Bit: 16
+  DisplayName: Trigger events
+  Name: TriggerEvent
+
+DisplayName: TestManagement
+ActionDefinition instance 38787544
+  Bit: 1
+  DisplayName: Read TestManagement
+  Name: Read
+
+DisplayName: SettingEntries
+ActionDefinition instance 13543581
+  Bit: 1
+  DisplayName: Retrieve setting entries
+  Name: Read
+
+ActionDefinition instance 54783372
+  Bit: 2
+  DisplayName: Write setting entries
+  Name: Write
+
+DisplayName: Location
+ActionDefinition instance 23288300
+  Bit: 1
+  DisplayName: Read service definitions and/or access mappings.
+  Name: Read
+
+ActionDefinition instance 8268111
+  Bit: 2
+  DisplayName: Write service definitions and/or access mappings.
+  Name: Write
+
+DisplayName: WorkItemsHub
+ActionDefinition instance 7304143
+  Bit: 1
+  DisplayName: View work items hub
+  Name: View
+
+DisplayName: WebPlatform
+ActionDefinition instance 65737292
+  Bit: 1
+  DisplayName: View web platform entities
+  Name: Read
+
+DisplayName: CrossProjectWidgetView
+ActionDefinition instance 54764719
+  Bit: 1
+  DisplayName: View instance-level information
+  Name: GenericRead
+
+DisplayName: WorkItemTrackingConfiguration
+ActionDefinition instance 23120425
+  Bit: 1
+  DisplayName: View work item tracking configuration
+  Name: Read
+
+DisplayName: DataProvider
+ActionDefinition instance 6757235
+  Bit: 1
+  DisplayName: View data provider entities
+  Name: Read
+
+DisplayName: Social
+ActionDefinition instance 60815118
+  Bit: 1
+  DisplayName: View instance-level information
+  Name: GenericRead
+
+ActionDefinition instance 10465156
+  Bit: 2
+  DisplayName: Edit instance-level information
+  Name: GenericWrite
+
+DisplayName: Security
+ActionDefinition instance 27077540
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+DisplayName: IdentityPicker
+ActionDefinition instance 42371273
+  Bit: 1
+  DisplayName: Read basic Identity Picker properties
+  Name: ReadBasic
+
+ActionDefinition instance 45797138
+  Bit: 2
+  DisplayName: Read restricted Identity Picker properties
+  Name: ReadRestricted
+
+DisplayName: DashboardsPrivileges
+ActionDefinition instance 9521066
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 18580737
+  Bit: 2
+  DisplayName: Create dashboard
+  Name: Create
+
+ActionDefinition instance 33008913
+  Bit: 4
+  DisplayName: Edit dashboard
+  Name: Edit
+
+ActionDefinition instance 28644761
+  Bit: 8
+  DisplayName: Delete dashboard
+  Name: Delete
+
+ActionDefinition instance 56476259
+  Bit: 16
+  DisplayName: ManagePermissions
+  Name: ManagePermissions
+
+ActionDefinition instance 38524289
+  Bit: 32
+  DisplayName: Materialize Dashboards
+  Name: MaterializeDashboards
+
+DisplayName: VersionControlItems
+ActionDefinition instance 11174282
+  Bit: 1
+  DisplayName: Read
+  Name: Read
+
+ActionDefinition instance 33459681
+  Bit: 2
+  DisplayName: Pend a change in a server workspace
+  Name: PendChange
+
+ActionDefinition instance 32701678
+  Bit: 4
+  DisplayName: Check in
+  Name: Checkin
+
+ActionDefinition instance 25879650
+  Bit: 8
+  DisplayName: Label
+  Name: Label
+
+ActionDefinition instance 31590262
+  Bit: 16
+  DisplayName: Lock
+  Name: Lock
+
+ActionDefinition instance 15876907
+  Bit: 32
+  DisplayName: Revise other users' changes
+  Name: ReviseOther
+
+ActionDefinition instance 8674443
+  Bit: 64
+  DisplayName: Unlock other users' changes
+  Name: UnlockOther
+
+ActionDefinition instance 10961125
+  Bit: 128
+  DisplayName: Undo other users' changes
+  Name: UndoOther
+
+ActionDefinition instance 31541268
+  Bit: 256
+  DisplayName: Administer labels
+  Name: LabelOther
+
+ActionDefinition instance 15435960
+  Bit: 1024
+  DisplayName: Manage permissions
+  Name: AdminProjectRights
+
+ActionDefinition instance 4705914
+  Bit: 2048
+  DisplayName: Check in other users' changes
+  Name: CheckinOther
+
+ActionDefinition instance 42353227
+  Bit: 4096
+  DisplayName: Merge
+  Name: Merge
+
+ActionDefinition instance 45634724
+  Bit: 8192
+  DisplayName: Manage branch
+  Name: ManageBranch
